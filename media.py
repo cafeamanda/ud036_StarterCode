@@ -1,9 +1,11 @@
 import webbrowser
 
+
 class Movie():
     """ Instances of this class store movie related information """
 
-    def __init__(self, movie_title, movie_year, movie_storyline, poster_image, trailer_youtube):
+    def __init__(self, movie_title, movie_year, movie_storyline, poster_image,
+                 trailer_youtube):
         self.title = movie_title
         self.year = movie_year
         self.storyline = movie_storyline
